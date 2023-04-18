@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <title>JavaScript 09 – Introdução ao DOM</title>
+</head>
+<body>
+    <h1 name="testeDomName">JavaScript 09 – Introdução ao DOM</h1>
+    <h2 class="domClass">O que é DOM?</h2>
+    <p><strong>DOM</strong> (Document Object Model), está presente quando estamos utilizando o JavaScript dentro do nosso navegador.</p>
+    <h2 class="domClass">Árvore DOM</h2>
+    <p>Basicamente, todos os objetos HTML5 dentro do nosso navegador, em JavaScript é uma window.<p>
+    <h3><ul> Dentro do nosso window, temos diversos outros objetos:
+        <li id="locationID">location</li>
+        <li>document</li>
+            <ul>Dentro de document, temos um object, extremamente importante que é o nosso:
+                <li>HTML, e nossos filhos HEAD e BODY</li>
+            </ul>
+        <li id="historyLabel">history</li>
+    </ul></h3>
+    <p>Podemos acessar os nossos elementos DOM, através de:</p>
+    <ul>
+        <li>MARCA</li>
+        <li>ID</li>
+        <li>NOME</li>
+        <li>CLASSE</li>
+        <li>SELETOR</li>
+    </ul>
+    <script src="/scripts/aula09.js"></script>
+</body>
+</html>
