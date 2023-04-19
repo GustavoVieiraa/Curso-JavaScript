@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: rgb(105, 105, 170);
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    background-color: #FFF;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+}
+
+section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+}
+
+section #msgHora {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    padding: 20px;
+}
+
+footer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
