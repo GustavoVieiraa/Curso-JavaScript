@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #7E7E7E;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.res-bebe {
+    color: rgb(128, 128, 247);
+    font-size: 1.2rem;
+}
+
+.res-menino {
+    color: rgb(102, 102, 255);
+    font-size: 1.2rem;
+}
+
+.res-jovem {
+    color: rgb(68, 68, 255);
+    font-size: 1.2rem;
+}
+
+.res-adulto {
+    color: rgb(48, 48, 255);
+    font-size: 1.2rem;
+}
+
+.res-velho {
+    color: rgb(19, 19, 255);
+    font-size: 1.2rem;
+}
+
+.res-dead {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.res-bebe-menina {
+    color: rgb(250, 161, 176);
+    font-size: 1.2rem;
+}
+
+.res-menina {
+    color: rgb(255, 157, 173);
+    font-size: 1.2rem;
+}
+
+.res-mulher {
+    color: rgb(255, 120, 143);
+    font-size: 1.2rem;
+}
+
+.res-velha {
+    color: rgb(253, 83, 111);
+    font-size: 1.2rem;
+}
+
+.alerta {
+    color: gold;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+section {
+    background: #ffffff;
+    text-align: center;
+    max-width: 500px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.bx-left-arrow {
+    font-size: 1.5rem;
+    color: #7E7E7E;
+    text-align: center;
+    transition: 1s ease;
+}
+
+.bx-left-arrow:hover {
+    font-size: 1.7rem;
+    color: #383838;
+}
+
+footer {
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+}

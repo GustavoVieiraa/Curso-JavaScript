@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Verificador de Idade</title>
+</head>
+<body id="fundoPag">
+    <header>
+        <h1 class="title">Verificador de Idades</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtAnoNasc" id="txtAnoNasc" min="1900" max="2023">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radSexEntry" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radSexEntry" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="validarDados()">
+            </p>
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima, para verificar o resultado!</p>
+        </div>
+        <a href="https://gvdesenvolvimentos.com/projetos.html"><i class='bx bx-left-arrow'></i></a>
+    </section>
+    <footer class="footer">
+        <p>&copy; Gustavo Vieira</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
